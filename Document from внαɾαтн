@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width:1000px;
+	margin:20px auto;
+	border:4px solid #ababab;
+}
+
+.car{
+	width:90px;
+	height:143px;
+	margin-bottom:2px;
+}
+
+.car-1{
+	animation:race 1s 1 forwards;
+}
+
+.car-2{
+	animation:race 3s 1 forwards;
+}
+
+.car-3{
+	animation:race 5s 1 forwards;
+}
+
+
+img{
+	width:100%;
+	height:100%;
+	transform:rotate(90deg);
+}
+
+@keyframes race{
+	0%{
+		transform:translatex(0px);
+
+	}
+	100%{
+		transform:translatex(893px);
+
+	}
+}
