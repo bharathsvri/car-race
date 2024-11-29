@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Car Animation</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="car car-1">
+				<img src="./images/car-1.png">
+			</div>
+			<div class="car car-2">
+				<img src="./images/car-2.png">
+			</div>
+			<div class="car car-3">
+				<img src="./images/car-3.png">
+			</div>
+		</div>
+	</body>
+</html>
